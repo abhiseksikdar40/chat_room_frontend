@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="0.5" stop-color="#7f5cff"/>
+      <stop offset="1" stop-color="#a100ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- move everything UP by 2px for perfect tab alignment -->
+  <g transform="translate(3,7)">
+    <path
+      d="M6 14c0-6 5-11 11-11h30c6 0 11 5 11 11v18c0 6-5 11-11 11H26L14 55V43H17c-6 0-11-5-11-11V14z"
+      fill="url(#grad)"
+    />
+
+    <circle cx="23" cy="25" r="3" fill="#fff"/>
+    <circle cx="32" cy="25" r="3" fill="#fff"/>
+    <circle cx="41" cy="25" r="3" fill="#fff"/>
+  </g>
+</svg>
