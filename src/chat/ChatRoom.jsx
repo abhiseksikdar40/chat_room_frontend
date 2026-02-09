@@ -309,12 +309,12 @@ export default function ChatRoom() {
                     {activeUser?.fullName}
                   </h5>
                   <span
-                        className={`status-pill ${
-                          onlineEmails.includes(activeUser?.email) ? "online" : "offline"
-                        }`}
-                      >
-                    {activeUser?.online ? "Online" : "Offline"}
-                  </span>
+                  className={`status-pill ${
+                    onlineEmails.includes(activeUser?.email) ? "online" : "offline"
+                  }`}
+                >
+                  {onlineEmails.includes(activeUser?.email) ? "Online" : "Offline"}
+                </span>
                 </div>
 
                 <div ref={menuRef} className="position-relative">
